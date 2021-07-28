@@ -1,0 +1,237 @@
+*{box-sizing: border-box;}
+
+
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #313131;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover, a.active{
+    color: #339999;
+    text-decoration: underline;
+}
+
+/*****************header**********/
+
+header{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid #00b9b9;
+}
+.logo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+ul.gnb{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.gnb>li{
+    height: 60px;
+    text-align: right;
+    padding-right: 55px;
+}
+.blog2{
+    margin-top: 0px;
+    background: url(../images/로고2.png) no-repeat 40px top;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.searchform input[type=text]{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #333;
+    padding-left: 15px;
+    
+    background: url(../images/Untitled-2.png) no-repeat 180px 1px;
+}
+
+a.sns{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.snsbox{
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+/**본문**/
+.container{
+    margin-left: 300px;
+    width: 900px;
+
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contents{
+    width: 650px;
+    float: left;
+    padding: 60px 30px ;
+    
+}
+
+.container .aside{
+    width: 250px;
+    float: left;
+    background-color: #d7ffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+ul.listbox{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listbox a.imgbox{
+    display: block;
+    width: 135px;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    margin-left: 150px;
+}
+.listbox img{
+    max-width: 100%;
+}
+.listbox h1{
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 2;
+}
+.hesharea{
+padding-top: 10px;
+padding-left: 150px;
+padding-bottom: 10px;
+}
+
+
+.hash{
+    margin-right: 10px;
+}
+.hash:last-of-type{
+    margin-right: 20px;
+}
+.hash::before{
+    content: "#";
+}
+.hesharea .wdate{
+    margin-left:5px;
+    margin-right:5px;
+}
+.comment{
+    margin-left: 10px;
+}
+
+.aside .aside-title{
+margin-top: 20px;
+font-style: oblique;
+width: 200px;
+border-bottom: 4px dotted #096060;
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+ul.category{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+ul.category li{
+    border-bottom: 1px solid #096060;
+
+}
+
+ul.category li span{
+    float: right;
+    color: #00b9b9;
+    font-weight: 400;
+}
+
+ul.popular{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+ul.popular a{
+display: block;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+ul.popular a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+ul.popular img{
+    width: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+ul.popular h4{
+    letter-spacing: -2px;
+    margin: 0;
+}
+ul.popular div{
+    font-size: 12px;
+    padding-top: 3px;
+    text-align: right;
+}
+
+ul.popular span{
+    margin-left: 5px;
+}
+
+div.tagcloud{
+    margin-bottom: 1000px;
+}
+
+div.tagcloud a{
+    padding: 2px 3px;
+    margin-right: 5px;
+    border: 1px solid #bbb;
+    background: white;
+    display: block;
+    float: left;
+    border-radius: 5px ;
+    font-size: 13px;
+}

@@ -1,0 +1,80 @@
+*{box-sizing:border-box}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #313131;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover, a.active{
+    color: #339999;
+    text-decoration: underline;
+}
+/***********hreader******/
+header{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    padding-top: 80px;
+    padding-left: 40px;
+    top: 0;
+    left: 0;
+    border-right: #00b9b9 1px solid; 
+}
+
+.logo{
+    text-align: center;
+}
+
+ul.gnb{
+    padding-right: 50px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.gnb li{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.blog2{
+    width: 246px;
+    margin-left: -40px;
+    bottom: 250px;
+    text-align: center;
+    overflow: auto;
+    background: url(../images/로고2.png) no-repeat; 
+    margin-left: 10px;
+}
+
+form.searchform{
+    margin-top: 177px;
+    
+    text-align: center;
+
+}
+.searchform input[type=text]{
+    width: 190px;
+    height: 40px;
+    border: 1px solid #333;
+    padding-left: 15px;
+}
+a.sns{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.snsbox{
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
